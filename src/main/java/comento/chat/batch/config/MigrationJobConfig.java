@@ -58,35 +58,6 @@ public class MigrationJobConfig {
                 .build();
     }
 
-//    @Bean
-//    public Job chatLikeJob(JobRepository jobRepository, Step chatLikeStep) {
-//        return new JobBuilder("chatLikeJob", jobRepository)
-//                .start(chatLikeStep)
-//                .build();
-//    }
-
-//    @Bean
-//    public Step chatStep(JobRepository jobRepository, ItemReader<Chat> chatReader,
-//            ItemWriter<Chat> chatWriter) {
-//
-//        return new StepBuilder("chatStep", jobRepository)
-//                .<Chat, Chat>chunk(100, new JpaTransactionManager(chatEntityManagerFactory))
-//                .reader(chatReader)
-//                .writer(chatWriter)
-//                .build();
-//    }
-//
-//    @Bean
-//    public Step chatLikeStep(JobRepository jobRepository, ItemReader<ChatLike> chatLikeReader,
-//            ItemWriter<ChatLike> chatLikeWriter) {
-//
-//        return new StepBuilder("chatLikeStep", jobRepository)
-//                .<ChatLike, ChatLike>chunk(100, new JpaTransactionManager(chatEntityManagerFactory))
-//                .reader(chatLikeReader)
-//                .writer(chatLikeWriter)
-//                .build();
-//    }
-
     @Bean
     public ItemReader<Chat> chatReader() {
         // 데이터 조회
