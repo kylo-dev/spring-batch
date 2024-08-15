@@ -71,7 +71,9 @@
 ## 4️⃣ Spring Batch를 통한 데이터베이스 마이그레이션
 
 _**블로그 포스팅**_
+
 [Spring Batch 이해하기](https://kylo8.tistory.com/entry/Spring-Spring-Batch-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-Job-Step-Chunk)
+
 [데이터 마이그레이션 트러블 슈팅](https://kylo8.tistory.com/entry/Spring-Spring-Batch-50-JobBuilder-StepBuilder-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98-ID-%EC%B6%A9%EB%8F%8C-%ED%8A%B8%EB%9F%AC%EB%B8%94%EC%8A%88%ED%8C%85)
 
 <details>
