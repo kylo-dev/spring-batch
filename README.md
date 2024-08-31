@@ -78,7 +78,8 @@ _**블로그 포스팅**_
 
 <details>
   <summary>Yaml 파일</summary>
-  ```yaml
+    
+```yaml
 spring:
   batch:
     jdbc:
@@ -122,4 +123,5 @@ spring:
         enable_lazy_load_no_trans: true
         format_sql: true
 ```
+
 </details>
